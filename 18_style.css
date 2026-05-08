@@ -1,0 +1,26 @@
+
+        h1 {
+            color: green;
+            text-align: center;
+        }
+        #foo2{
+                color: red;
+            }
+        #foo3{
+                color: blue;
+            }
+
+    @media(min-width:600){
+        body{
+            color: blue;
+        }
+    }
+       
+
+    @media(max-width:599){
+        body{
+            color: red;
+        }
+    }
+       
+    
